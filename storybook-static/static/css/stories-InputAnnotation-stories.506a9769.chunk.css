@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..9001,14..32,100..900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* D E F A U L T */
+.InputAnnotation_inputAnnotation__M9dHo {
+  font-family: "Inter", system-ui;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  align-items: center;
+  display: flex;
+}
+
+/* T Y P E */
+.InputAnnotation_default__jeDDx,
+.InputAnnotation_hover__5ZFhV,
+.InputAnnotation_focus__JeOLI {
+  color: #51525C;
+}
+
+.InputAnnotation_error__4ZhqF,
+.InputAnnotation_error-focus__0Q0dN {
+  color: #D92D20;
+}
+
+.InputAnnotation_disabled__JDxwu {
+  color: #D1D1D6;
+}
+
+/*# sourceMappingURL=stories-InputAnnotation-stories.506a9769.chunk.css.map*/

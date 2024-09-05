@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* D E F A U L T */
+.InputText_inputText__R6ucv {
+  font-family: "Inter", system-ui;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  align-content: flex-start;
+  color: #1A1A1E;
+  background: inherit;
+}
+
+.InputText_inputText__R6ucv, .InputText_inputText__R6ucv:focus-visible, .InputText_inputText__R6ucv:focus {
+  border: none;
+  outline: none;
+}
+
+/* C A N T   C H A N C H E   T E X T */
+.InputText_offUserText__3EEt7 {
+  color: #70707B;
+}
+
+/* S I Z E */
+.InputText_xs__Ohet3, .InputText_sm__fJXUg {
+  font-size: 12px;
+}.InputText_lg__972m9, .InputText_xl__kTzfP {
+  font-size: 14px;
+}
+
+/* P L A C E */
+.InputText_top__M0jJG {
+  width: 216px;
+} .InputText_side__\+E19i {
+  width: 40px;
+}
+
+/* P O S I T I O N */
+.InputText_left__g1UTQ {
+  text-align: left;
+} .InputText_right__NLY5x {
+  text-align: right;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* D E F A U L T */
+.InputGroup_inputGroup__UHfJ5 {
+  width: fit-content;
+  border-radius: 4px;
+  border: none;
+  gap: 8px;
+  align-items: center;
+  display: flex;
+}
+
+/* S I Z E */
+.InputGroup_xs__5G-YU {
+  padding: 2px 12px;
+}.InputGroup_sm__YMgYb {
+  padding: 8px 12px;
+}.InputGroup_lg__sxGVs {
+  padding: 8px 12px 8px 16px;
+}.InputGroup_xl__y7rl8 {
+  padding: 12px 12px 12px 16px;
+}
+
+/* P L A C E */
+.InputGroup_top__4pkFx {
+  display: flex;
+} .InputGroup_side__HFAXm {
+  display: inline-flex;
+}
+
+/* T Y P E */
+.InputGroup_default__Dk2yy, .InputGroup_hover__TvdGi {
+  border: solid 1px #D1D1D6;
+} .InputGroup_focus__ZDGgo {
+  border: solid 1px #84CAFF;
+  box-shadow: 0 0 0 4px #84CAFF42;
+} .InputGroup_error__7jdNN {
+  border: solid 1px #FDA29B;
+} .InputGroup_error-focus__nSWez {
+  border: solid 1px #FDA29B;
+  box-shadow: 0 0 0 4px #F4CAC942;
+} .InputGroup_disabled__dVonS {
+  color: #70707B;
+  border: solid 1px #D1D1D6;
+}
+
+
+/*# sourceMappingURL=stories-InputGroup-stories.04c45dc3.chunk.css.map*/

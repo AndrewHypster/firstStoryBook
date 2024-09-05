@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* D E F A U L T */
+.InputText_inputText__R6ucv {
+  font-family: "Inter", system-ui;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  align-content: flex-start;
+  color: #1A1A1E;
+  background: inherit;
+}
+
+.InputText_inputText__R6ucv, .InputText_inputText__R6ucv:focus-visible, .InputText_inputText__R6ucv:focus {
+  border: none;
+  outline: none;
+}
+
+/* C A N T   C H A N C H E   T E X T */
+.InputText_offUserText__3EEt7 {
+  color: #70707B;
+}
+
+/* S I Z E */
+.InputText_xs__Ohet3, .InputText_sm__fJXUg {
+  font-size: 12px;
+}.InputText_lg__972m9, .InputText_xl__kTzfP {
+  font-size: 14px;
+}
+
+/* P L A C E */
+.InputText_top__M0jJG {
+  width: 216px;
+} .InputText_side__\+E19i {
+  width: 40px;
+}
+
+/* P O S I T I O N */
+.InputText_left__g1UTQ {
+  text-align: left;
+} .InputText_right__NLY5x {
+  text-align: right;
+}
+
+
+/*# sourceMappingURL=stories-InputText-stories.a5feffd6.chunk.css.map*/
