@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..9001,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* D E F A U L T */
+.mainPage {
+  height: fit-content;
+  padding: 37px 66px;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.list {
+  list-style-type: none;
+  gap: 66px;
+  display: grid;
+}
+
+.list li {
+  gap: 4px;
+  display: grid;
+}
+
+/* T H E M E */
+.light {
+  background: #fff;
+}
+
+.dark {
+  background: #1A1A1E;
+}

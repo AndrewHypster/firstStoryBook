@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..9001,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* D E F A U L T */
+.inputAnnotation {
+  font-family: "Inter", system-ui;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  align-items: center;
+  display: flex;
+}
+
+/* T Y P E */
+.default,
+.hover,
+.focus {
+  color: #51525C;
+}
+
+.error,
+.error-focus {
+  color: #D92D20;
+}
+
+.disabled {
+  color: #D1D1D6;
+}

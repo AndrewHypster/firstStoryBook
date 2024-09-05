@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* D E F A U L T */
+.inputText {
+  font-family: "Inter", system-ui;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  align-content: flex-start;
+  color: #1A1A1E;
+  background: inherit;
+}
+
+.inputText, .inputText:focus-visible, .inputText:focus {
+  border: none;
+  outline: none;
+}
+
+/* C A N T   C H A N C H E   T E X T */
+.offUserText {
+  color: #70707B;
+}
+
+/* S I Z E */
+.xs, .sm {
+  font-size: 12px;
+}.lg, .xl {
+  font-size: 14px;
+}
+
+/* P L A C E */
+.top {
+  width: 216px;
+} .side {
+  width: 40px;
+}
+
+/* P O S I T I O N */
+.left {
+  text-align: left;
+} .right {
+  text-align: right;
+}

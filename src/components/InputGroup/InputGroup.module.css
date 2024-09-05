@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* D E F A U L T */
+.inputGroup {
+  width: fit-content;
+  border-radius: 4px;
+  border: none;
+  gap: 8px;
+  align-items: center;
+  display: flex;
+}
+
+/* S I Z E */
+.xs {
+  padding: 2px 12px;
+}.sm {
+  padding: 8px 12px;
+}.lg {
+  padding: 8px 12px 8px 16px;
+}.xl {
+  padding: 12px 12px 12px 16px;
+}
+
+/* P L A C E */
+.top {
+  display: flex;
+} .side {
+  display: inline-flex;
+}
+
+/* T Y P E */
+.default, .hover {
+  border: solid 1px #D1D1D6;
+} .focus {
+  border: solid 1px #84CAFF;
+  box-shadow: 0 0 0 4px #84CAFF42;
+} .error {
+  border: solid 1px #FDA29B;
+} .error-focus {
+  border: solid 1px #FDA29B;
+  box-shadow: 0 0 0 4px #F4CAC942;
+} .disabled {
+  color: #70707B;
+  border: solid 1px #D1D1D6;
+}
