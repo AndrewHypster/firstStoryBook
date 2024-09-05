@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..9001,14..32,100..900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* D E F A U L T */
+.InputLabel_inputLabel__OgWD6 {
+  align-items: center;
+  display: flex;
+}
+
+.InputLabel_label__tiDx- {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.InputLabel_info__AeTRi {
+  margin-left: 4px;
+}
+
+.InputLabel_tooltip__ZOpI2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.InputLabel_tooltipText__EBipm {
+  visibility: hidden;
+  width: max-content;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px 12px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.InputLabel_tooltipText__EBipm::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+.InputLabel_tooltip__ZOpI2:hover .InputLabel_tooltipText__EBipm {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* T Y P E */
+.InputLabel_default__cZe2s {
+  /* color: #1A1A1E; */
+}
+
+.InputLabel_disabled__Ixuwt {
+  color: #70707B;
+}
+
+/*# sourceMappingURL=stories-InputLabel-stories.55eb3587.chunk.css.map*/
